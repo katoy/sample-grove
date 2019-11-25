@@ -40,6 +40,18 @@ https://www.switch-science.com/catalog/5434/  micro:bit用GROVEシールド v2.0
 後述のhalocode で行っている端子をワニ口クリップで挟んで接続しても LED 点滅させるのは可能と思われる。  
 (状況に応じて適切にポート指定をすること)
 
+## obniz
+
+```
+ LED <--> obniz
+   0 <--> VCC
+   1 <--> GND
+   2 <--> SIG
+```
+
+block プログラムと python で試しているが、 javascript でも可能と思われる。
+
+
 ## halocode
 
 halocode 側はワニ靴クリップで挟んでで接続。 
